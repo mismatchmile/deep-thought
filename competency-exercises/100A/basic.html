@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <h1>Hello World from HTML</h1>
+    <script src=basic.js></script>
+</head>
+
+<body>
+    <input type="Number" id="myInput"><br>
+    <button onclick="size()">Push me</button>
+    <p id="Console"></p>
+    <script>
+        console.log("Hello World from inline JavaScript");
+    </script>
+    <script>
+        function size() {
+            var x = document.getElementById("myInput").value;
+            var SML;
+            if (x < 10) {
+                SML = console.log("Small");
+            } else if (x === 10 - 19) {
+                SML = console.log("Medium");
+            } else if (x >= 20) {
+                SML = console.log("Large");
+            }
+        }
+    </script>
+</body>
+
+</html>
