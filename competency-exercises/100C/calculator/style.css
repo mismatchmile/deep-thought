@@ -5,20 +5,36 @@
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 4;
-	grid-gap: 20px;
+	grid-template-columns: 28px 28px 28px 28px;
+	grid-gap: 2px;
 	background-color: #2196F3;
-	padding: 20px;
+	padding: 2px 0px 0px 0px;
 	grid-template-rows: 4;
 }
 
 .grid-container > div {
  	background-color: rgba(255, 255, 255, 0.8);
   	text-align: center;
-  	padding: 30px 0;
-  	font-size: 30px;
+  	padding: 0px 0px 0px 0px;
  }
  
+.button {
+	background-color: #e7e7e7;
+	color: black;
+	border-radius: 2px;
+	border: 2px solid black;
+	font-size: 24px;
+}
+
+.button2 {
+	background-color: #e7e7e7;
+	color: black;
+	border-radius: 2px;
+	border: 2px solid black;
+	font-size: 24px;
+	border-spacing: 2px 2px;
+}
+
 .cell0 {
 	grid-column: 1;
 	grid-row: 1;
